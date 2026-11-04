@@ -19,7 +19,7 @@ Secondary analyses covered:
 - severity adjustment and comparison with an established 11-gene mortality score;
 - drug-perturbation connectivity in human PBMCs (Open Problems / NeurIPS 2023 data set);
 - single-cell validation (GSE167363);
-- post hoc analyses requested in peer review (script 08).
+- additional post hoc sensitivity analyses.
 
 All data are public. This repository does not redistribute raw data; the scripts download them from the original repositories.
 
