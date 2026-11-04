@@ -1,5 +1,5 @@
 # =====================================================================================
-# SEPSIS PROJECT - 08 REVISION ANALYSES (response to peer review)
+# # SEPSIS PROJECT - 08 ADDITIONAL POST HOC ANALYSES (after an internal review of the draft)
 #
 # HOW TO RUN: paste the whole file into ONE Jupyter cell and run it after stages 01-06.
 # It reads only result tables written by the earlier stages (no new downloads):
@@ -9,7 +9,7 @@
 #   S22b_op3_signature_genes.tsv, S36_sc_cell_scores.tsv.gz
 # Optional (if present in data/raw/GSE54514/): GSE54514_series_matrix.txt.gz -> measured neutrophil proportion.
 #
-# All analyses here were requested by the reviewer and were specified AFTER all earlier results were known.
+# # All analyses here were added after an internal review of the draft and were specified AFTER all earlier results were known.
 # They are labelled post hoc in the manuscript. Output: tables S37-S44 (S45 if the GSE54514 series matrix is present) and a log.
 # =====================================================================================
 from __future__ import annotations
