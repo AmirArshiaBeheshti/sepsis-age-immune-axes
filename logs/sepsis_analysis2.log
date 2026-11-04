@@ -1,0 +1,139 @@
+2026-11-02 14:01:27 | INFO | Project folder: /home/arshia/SEPSIS_immuneage
+2026-11-02 14:01:27 | INFO | Preflight passed: discovery GSE65682, 6 validation cohorts; python 3.12.13, pandas 2.3.3, numpy 2.0.2, statsmodels 0.14.6
+2026-11-02 14:01:27 | INFO | Pre-registration present: registered 2026-11-02T09:59:49+00:00, SHA-256 9a65487b85bbf8a9... (unchanged)
+2026-11-02 14:01:27 | INFO | Amendment 1 present (registered 2026-11-02T09:59:49+00:00, unchanged)
+2026-11-02 14:01:27 | INFO | Amendment 3 present (registered 2026-11-02T09:55:59+00:00, unchanged)
+2026-11-02 14:01:27 | INFO | Amendment 4 written (SHA-256 38457d4b28293666...) - before stage 2
+2026-11-02 14:01:31 | INFO | Gene-level models: 8946 genes measured in all 7 cohorts
+2026-11-02 14:01:32 | INFO |   GSE65682: gene-level models done (100.0% converged, 1 s)
+2026-11-02 14:01:33 | INFO |   E-MTAB-4421: gene-level models done (100.0% converged, 1 s)
+2026-11-02 14:01:33 | INFO |   E-MTAB-4451: gene-level models done (100.0% converged, 0 s)
+2026-11-02 14:01:34 | INFO |   E-MTAB-5273: gene-level models done (100.0% converged, 0 s)
+2026-11-02 14:01:34 | INFO |   GSE95233: gene-level models done (100.0% converged, 0 s)
+2026-11-02 14:01:34 | INFO |   GSE54514: gene-level models done (99.4% converged, 0 s)
+2026-11-02 14:01:37 | INFO |   GSE185263: gene-level models done (99.7% converged, 2 s)
+2026-11-02 14:01:37 | INFO | Genes associated with death (meta FDR < 0.05): 1119 (higher in non-survivors 327, lower 792)
+2026-11-02 14:01:41 | INFO | Downloaded Reactome_Pathways_2024.txt (0.9 MB)
+2026-11-02 14:01:41 | INFO | Reactome library: Reactome_Pathways_2024 (2105 sets)
+2026-11-02 14:01:43 | INFO | GSEA death / Hallmark: 48 sets tested, 15 at FDR < 0.05
+2026-11-02 14:01:47 | INFO | GSEA death / Reactome: 1037 sets tested, 18 at FDR < 0.05
+2026-11-02 14:01:49 | INFO | GSEA age / Hallmark: 48 sets tested, 18 at FDR < 0.05
+2026-11-02 14:01:53 | INFO | GSEA age / Reactome: 1037 sets tested, 246 at FDR < 0.05
+2026-11-02 14:01:54 | INFO | Pre-specified (death-and-age concordant) signature: UP 120, DOWN 68 -> usable
+2026-11-02 14:01:56 | WARNING | CD274 - PDCD1: measurable in only 4 cohorts - not analysed
+2026-11-02 14:01:56 | INFO | Ligand-receptor axes (pooled over all cohorts):
+                         axis  k  death_OR  death_FDR  death_OR_adjML  adjML_FDR   age_b  age_FDR
+           HLA class II - CD4  7    0.6146     0.0000          0.6062     0.0012 -0.0147   0.7067
+                   MIF - CD74  7    0.7722     0.0004          0.8473     0.0909 -0.0618   0.0014
+                  CD80 - CD28  5    0.8914     0.2302          1.0918     0.4583 -0.0690   0.3671
+                  CD86 - CD28  7    0.7151     0.0000          0.8068     0.0537 -0.0310   0.5305
+                 CD86 - CTLA4  7    0.7298     0.0023          0.8305     0.0638  0.0039   0.9169
+         IL10 - IL10RA/IL10RB  7    0.9992     0.9946          1.0230     0.8460  0.0399   0.3671
+         S100A8/S100A9 - TLR4  7    1.3490     0.0058          1.2541     0.0998  0.0304   0.5305
+ARG1 (neutrophil suppression)  7    1.4594     0.0000          1.3369     0.0092  0.0531   0.0790
+2026-11-02 14:01:56 | INFO | QUALITY GATE [PASS] genes measured in all analysed cohorts: 8946 (criterion: >= 8000)
+2026-11-02 14:01:56 | INFO | QUALITY GATE [PASS] GSE65682: gene-level logistic models converged: 100.0% (criterion: >= 95%)
+2026-11-02 14:01:56 | INFO | QUALITY GATE [PASS] E-MTAB-4421: gene-level logistic models converged: 100.0% (criterion: >= 95%)
+2026-11-02 14:01:56 | INFO | QUALITY GATE [PASS] E-MTAB-4451: gene-level logistic models converged: 100.0% (criterion: >= 95%)
+2026-11-02 14:01:56 | INFO | QUALITY GATE [PASS] E-MTAB-5273: gene-level logistic models converged: 100.0% (criterion: >= 95%)
+2026-11-02 14:01:56 | INFO | QUALITY GATE [PASS] GSE95233: gene-level logistic models converged: 100.0% (criterion: >= 95%)
+2026-11-02 14:01:56 | INFO | QUALITY GATE [PASS] GSE54514: gene-level logistic models converged: 99.4% (criterion: >= 95%)
+2026-11-02 14:01:56 | INFO | QUALITY GATE [PASS] GSE185263: gene-level logistic models converged: 99.7% (criterion: >= 95%)
+2026-11-02 14:01:56 | INFO | QUALITY GATE [PASS] Hallmark gene sets loaded: 50 (criterion: >= 40)
+2026-11-02 14:01:56 | INFO | QUALITY GATE [PASS] Reactome gene sets loaded: 2105 (criterion: >= 500)
+2026-11-02 14:01:56 | INFO | QUALITY GATE [PASS] pre-specified reversal signature (death-and-age concordant pathways): UP 120 / DOWN 68 (criterion: >= 20 per direction)
+2026-11-02 14:01:56 | INFO | QUALITY GATE [PASS] ligand-receptor axes measurable (genes present) in >= 5 cohorts: 8 (criterion: >= 7 of 9)
+2026-11-02 14:01:56 | INFO | QUALITY GATE [PASS] RESULT (reported): ligand-receptor axes associated with death (FDR < 0.05): HLA class II - CD4, MIF - CD74, CD86 - CD28, CD86 - CTLA4, S100A8/S100A9 - TLR4, ARG1 (neutrophil suppression) (criterion: reported)
+2026-11-02 14:01:56 | INFO | QUALITY GATE [PASS] RESULT (reported): pathways with death FDR < 0.05 (Hallmark / Reactome): 15 / 18 (criterion: reported)
+2026-11-02 14:01:58 | INFO | Saved figure /home/arshia/SEPSIS_immuneage/results/figures/Fig4_pathways_ligand_receptor.pdf/.png/.tiff
+2026-11-02 14:01:58 | INFO | Run time 0.5 min
+2026-11-02 14:01:58 | INFO | 
+==========================================================================================
+ANALYSIS STAGE 2 QUALITY GATES
+==========================================================================================
+[PASS] analysis2      genes measured in all analysed cohorts: 8946  (criterion: >= 8000)
+[PASS] analysis2      GSE65682: gene-level logistic models converged: 100.0%  (criterion: >= 95%)
+[PASS] analysis2      E-MTAB-4421: gene-level logistic models converged: 100.0%  (criterion: >= 95%)
+[PASS] analysis2      E-MTAB-4451: gene-level logistic models converged: 100.0%  (criterion: >= 95%)
+[PASS] analysis2      E-MTAB-5273: gene-level logistic models converged: 100.0%  (criterion: >= 95%)
+[PASS] analysis2      GSE95233: gene-level logistic models converged: 100.0%  (criterion: >= 95%)
+[PASS] analysis2      GSE54514: gene-level logistic models converged: 99.4%  (criterion: >= 95%)
+[PASS] analysis2      GSE185263: gene-level logistic models converged: 99.7%  (criterion: >= 95%)
+[PASS] analysis2      Hallmark gene sets loaded: 50  (criterion: >= 40)
+[PASS] analysis2      Reactome gene sets loaded: 2105  (criterion: >= 500)
+[PASS] analysis2      pre-specified reversal signature (death-and-age concordant pathways): UP 120 / DOWN 68  (criterion: >= 20 per direction)
+[PASS] analysis2      ligand-receptor axes measurable (genes present) in >= 5 cohorts: 8  (criterion: >= 7 of 9)
+[PASS] analysis2      RESULT (reported): ligand-receptor axes associated with death (FDR < 0.05): HLA class II - CD4, MIF - CD74, CD86 - CD28, CD86 - CTLA4, S100A8/S100A9 - TLR4, ARG1 (neutrophil suppression)  (criterion: reported)
+[PASS] analysis2      RESULT (reported): pathways with death FDR < 0.05 (Hallmark / Reactome): 15 / 18  (criterion: reported)
+------------------------------------------------------------------------------------------
+ALL CRITICAL GATES PASSED - Analysis stage 2 complete.
+==========================================================================================
+2026-11-02 14:07:28 | INFO | Project folder: /home/arshia/SEPSIS_immuneage
+2026-11-02 14:07:28 | INFO | Preflight passed: discovery GSE65682, 6 validation cohorts; python 3.12.13, pandas 2.3.3, numpy 2.0.2, statsmodels 0.14.6
+2026-11-02 14:07:28 | INFO | Pre-registration present: registered 2026-11-02T09:59:49+00:00, SHA-256 9a65487b85bbf8a9... (unchanged)
+2026-11-02 14:07:28 | INFO | Amendment 1 present (registered 2026-11-02T09:59:49+00:00, unchanged)
+2026-11-02 14:07:28 | INFO | Amendment 3 present (registered 2026-11-02T09:55:59+00:00, unchanged)
+2026-11-02 14:07:28 | INFO | Amendment 4 present (registered 2026-11-02T10:31:27+00:00, unchanged)
+2026-11-02 14:07:32 | INFO | Gene-level models: 8946 genes measured in all 7 cohorts
+2026-11-02 14:07:34 | INFO |   GSE65682: gene-level models done (100.0% converged, 2 s)
+2026-11-02 14:07:35 | INFO |   E-MTAB-4421: gene-level models done (100.0% converged, 1 s)
+2026-11-02 14:07:35 | INFO |   E-MTAB-4451: gene-level models done (100.0% converged, 0 s)
+2026-11-02 14:07:36 | INFO |   E-MTAB-5273: gene-level models done (100.0% converged, 1 s)
+2026-11-02 14:07:36 | INFO |   GSE95233: gene-level models done (100.0% converged, 0 s)
+2026-11-02 14:07:37 | INFO |   GSE54514: gene-level models done (99.4% converged, 0 s)
+2026-11-02 14:07:40 | INFO |   GSE185263: gene-level models done (99.7% converged, 3 s)
+2026-11-02 14:07:40 | INFO | Genes associated with death (meta FDR < 0.05): 1119 (higher in non-survivors 327, lower 792)
+2026-11-02 14:07:40 | INFO | Reactome library: Reactome_Pathways_2024 (2105 sets)
+2026-11-02 14:07:42 | INFO | GSEA death / Hallmark: 48 sets tested, 15 at FDR < 0.05
+2026-11-02 14:07:47 | INFO | GSEA death / Reactome: 1037 sets tested, 18 at FDR < 0.05
+2026-11-02 14:07:49 | INFO | GSEA age / Hallmark: 48 sets tested, 18 at FDR < 0.05
+2026-11-02 14:07:54 | INFO | GSEA age / Reactome: 1037 sets tested, 246 at FDR < 0.05
+2026-11-02 14:07:54 | INFO | Pre-specified (death-and-age concordant) signature: UP 120, DOWN 68 -> usable
+2026-11-02 14:07:56 | WARNING | CD274 - PDCD1: measurable in only 4 cohorts - not analysed
+2026-11-02 14:07:56 | INFO | Ligand-receptor axes (pooled over all cohorts):
+                         axis  k  death_OR  death_FDR  death_OR_adjML  adjML_FDR   age_b  age_FDR
+           HLA class II - CD4  7    0.6146     0.0000          0.6062     0.0012 -0.0147   0.7067
+                   MIF - CD74  7    0.7722     0.0004          0.8473     0.0909 -0.0618   0.0014
+                  CD80 - CD28  5    0.8914     0.2302          1.0918     0.4583 -0.0690   0.3671
+                  CD86 - CD28  7    0.7151     0.0000          0.8068     0.0537 -0.0310   0.5305
+                 CD86 - CTLA4  7    0.7298     0.0023          0.8305     0.0638  0.0039   0.9169
+         IL10 - IL10RA/IL10RB  7    0.9992     0.9946          1.0230     0.8460  0.0399   0.3671
+         S100A8/S100A9 - TLR4  7    1.3490     0.0058          1.2541     0.0998  0.0304   0.5305
+ARG1 (neutrophil suppression)  7    1.4594     0.0000          1.3369     0.0092  0.0531   0.0790
+2026-11-02 14:07:56 | INFO | QUALITY GATE [PASS] genes measured in all analysed cohorts: 8946 (criterion: >= 8000)
+2026-11-02 14:07:56 | INFO | QUALITY GATE [PASS] GSE65682: gene-level logistic models converged: 100.0% (criterion: >= 95%)
+2026-11-02 14:07:56 | INFO | QUALITY GATE [PASS] E-MTAB-4421: gene-level logistic models converged: 100.0% (criterion: >= 95%)
+2026-11-02 14:07:56 | INFO | QUALITY GATE [PASS] E-MTAB-4451: gene-level logistic models converged: 100.0% (criterion: >= 95%)
+2026-11-02 14:07:56 | INFO | QUALITY GATE [PASS] E-MTAB-5273: gene-level logistic models converged: 100.0% (criterion: >= 95%)
+2026-11-02 14:07:56 | INFO | QUALITY GATE [PASS] GSE95233: gene-level logistic models converged: 100.0% (criterion: >= 95%)
+2026-11-02 14:07:56 | INFO | QUALITY GATE [PASS] GSE54514: gene-level logistic models converged: 99.4% (criterion: >= 95%)
+2026-11-02 14:07:56 | INFO | QUALITY GATE [PASS] GSE185263: gene-level logistic models converged: 99.7% (criterion: >= 95%)
+2026-11-02 14:07:56 | INFO | QUALITY GATE [PASS] Hallmark gene sets loaded: 50 (criterion: >= 40)
+2026-11-02 14:07:56 | INFO | QUALITY GATE [PASS] Reactome gene sets loaded: 2105 (criterion: >= 500)
+2026-11-02 14:07:56 | INFO | QUALITY GATE [PASS] pre-specified reversal signature (death-and-age concordant pathways): UP 120 / DOWN 68 (criterion: >= 20 per direction)
+2026-11-02 14:07:56 | INFO | QUALITY GATE [PASS] ligand-receptor axes measurable (genes present) in >= 5 cohorts: 8 (criterion: >= 7 of 9)
+2026-11-02 14:07:56 | INFO | QUALITY GATE [PASS] RESULT (reported): ligand-receptor axes associated with death (FDR < 0.05): HLA class II - CD4, MIF - CD74, CD86 - CD28, CD86 - CTLA4, S100A8/S100A9 - TLR4, ARG1 (neutrophil suppression) (criterion: reported)
+2026-11-02 14:07:56 | INFO | QUALITY GATE [PASS] RESULT (reported): pathways with death FDR < 0.05 (Hallmark / Reactome): 15 / 18 (criterion: reported)
+2026-11-02 14:07:58 | INFO | Saved figure /home/arshia/SEPSIS_immuneage/results/figures/Fig4_pathways_ligand_receptor.pdf/.png/.tiff
+2026-11-02 14:07:58 | INFO | Run time 0.5 min
+2026-11-02 14:07:58 | INFO | 
+==========================================================================================
+ANALYSIS STAGE 2 QUALITY GATES
+==========================================================================================
+[PASS] analysis2      genes measured in all analysed cohorts: 8946  (criterion: >= 8000)
+[PASS] analysis2      GSE65682: gene-level logistic models converged: 100.0%  (criterion: >= 95%)
+[PASS] analysis2      E-MTAB-4421: gene-level logistic models converged: 100.0%  (criterion: >= 95%)
+[PASS] analysis2      E-MTAB-4451: gene-level logistic models converged: 100.0%  (criterion: >= 95%)
+[PASS] analysis2      E-MTAB-5273: gene-level logistic models converged: 100.0%  (criterion: >= 95%)
+[PASS] analysis2      GSE95233: gene-level logistic models converged: 100.0%  (criterion: >= 95%)
+[PASS] analysis2      GSE54514: gene-level logistic models converged: 99.4%  (criterion: >= 95%)
+[PASS] analysis2      GSE185263: gene-level logistic models converged: 99.7%  (criterion: >= 95%)
+[PASS] analysis2      Hallmark gene sets loaded: 50  (criterion: >= 40)
+[PASS] analysis2      Reactome gene sets loaded: 2105  (criterion: >= 500)
+[PASS] analysis2      pre-specified reversal signature (death-and-age concordant pathways): UP 120 / DOWN 68  (criterion: >= 20 per direction)
+[PASS] analysis2      ligand-receptor axes measurable (genes present) in >= 5 cohorts: 8  (criterion: >= 7 of 9)
+[PASS] analysis2      RESULT (reported): ligand-receptor axes associated with death (FDR < 0.05): HLA class II - CD4, MIF - CD74, CD86 - CD28, CD86 - CTLA4, S100A8/S100A9 - TLR4, ARG1 (neutrophil suppression)  (criterion: reported)
+[PASS] analysis2      RESULT (reported): pathways with death FDR < 0.05 (Hallmark / Reactome): 15 / 18  (criterion: reported)
+------------------------------------------------------------------------------------------
+ALL CRITICAL GATES PASSED - Analysis stage 2 complete.
+==========================================================================================

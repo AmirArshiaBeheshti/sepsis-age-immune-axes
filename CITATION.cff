@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article and the archived repository version."
+title: "Age and blood immune dysregulation are separable mortality risk axes in sepsis: a multi-cohort transcriptomic study (analysis code)"
+version: "1.0.0"
+license: MIT
+authors:
+  - family-names: "[Surname]"
+    given-names: "[Given names]"
+    affiliation: "[Institution]"
+repository-code: "https://github.com/AmirArshiaBeheshti/sepsis-age-immune-axes"
+preferred-citation:
+  type: article
+  title: "Age and blood immune dysregulation are separable mortality risk axes in sepsis: a multi-cohort transcriptomic study"
+  journal: "Heliyon"
+  authors:
+    - family-names: "[Surname]"
+      given-names: "[Given names]"
+  year: 2026

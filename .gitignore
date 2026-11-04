@@ -1,0 +1,10 @@
+# project output written by the scripts (raw data and caches are not redistributed)
+SEPSIS_immuneage/
+*.h5ad
+*.tar
+*.npz
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store

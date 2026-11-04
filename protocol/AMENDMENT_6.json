@@ -1,0 +1,12 @@
+{
+ "registered_utc": "2026-11-02T11:25:36+00:00",
+ "sha256": "53f93e3d0182d5d1dc9e732d1f2ce0c922511f4fb352ca55420ef7713bbba993",
+ "file": "AMENDMENT_6.md",
+ "audit": {
+  "amendment_5_registered_utc": "2026-11-02T11:03:00+00:00",
+  "drug_results_present": [],
+  "raw_count_file_present": false,
+  "raw_count_partial_download_bytes": 218103808,
+  "raw_pseudobulk_cache_present": false
+ }
+}

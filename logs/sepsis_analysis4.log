@@ -1,0 +1,54 @@
+2026-11-02 20:21:45 | INFO | Project folder: /home/arshia/SEPSIS_immuneage
+2026-11-02 20:21:45 | INFO | Preflight passed: discovery GSE65682, 6 validation cohorts; python 3.12.13, pandas 2.3.3, numpy 2.0.2, statsmodels 0.14.6
+2026-11-02 20:21:45 | INFO | anndata 0.12.19, h5py 3.16.0
+2026-11-02 20:21:45 | INFO | Pre-registration present: registered 2026-11-02T09:59:49+00:00, SHA-256 9a65487b85bbf8a9... (unchanged)
+2026-11-02 20:21:45 | INFO | Amendment 1 present (registered 2026-11-02T09:59:49+00:00, unchanged)
+2026-11-02 20:21:45 | INFO | Amendment 3 present (registered 2026-11-02T09:55:59+00:00, unchanged)
+2026-11-02 20:21:45 | INFO | Amendment 4 present (registered 2026-11-02T10:31:27+00:00, unchanged)
+2026-11-02 20:21:45 | INFO | Amendment 5 (raw-count design) registered 2026-11-02T11:03:00+00:00 - superseded by Amendment 6
+2026-11-02 20:21:45 | INFO | Amendment 6 present (registered 2026-11-02T11:25:36+00:00, unchanged)
+2026-11-02 20:21:45 | INFO | Amendment 7 written (SHA-256 d2567a8a539608ba...) - before the analyses it specifies
+2026-11-02 20:21:50 | INFO | Glucocorticoid-response signature (OP3 myeloid, all GCs concordant, |stat| >= 3.0): UP 50, DOWN 50
+  UP: FKBP5, TSC22D3, TFPI, ZBTB16, KLF9, MS4A4A, ADORA3, ETS2, CPM, SESN1, CEBPD, SH3PXD2B, PDK4, IDH1, TUT7, ALCAM, MTSS1, ERGIC1, MFGE8, PDGFC, TLR4, PTEN, VSIG4, FLT3, SMIM3
+  DOWN: PEA15, LST1, PRDX1, TXNDC17, PHPT1, HLA-DQA1, PTPRE, COPRS, HMGN1, HCST, NDUFAB1, ACTR3, ATP5MF, BANF1, PRELID1, CIB1, IGSF6, RGS10, PSMD8, AKR1A1, COX7A2, OLR1, CTSH, QPCT, SUMO1
+2026-11-02 20:21:52 | INFO | Sweeney genes measured (UP / DOWN): GSE65682 6/3; E-MTAB-4421 6/3; E-MTAB-4451 6/3; E-MTAB-5273 7/3; GSE95233 6/3; GSE54514 6/3; GSE185263 8/3
+2026-11-02 20:21:52 | INFO | (A) ML index adjusted for severity (2 cohorts): pooled OR 0.98 (0.70-1.37), P = 0.9
+2026-11-02 20:21:52 | INFO | (B) base+ML vs base: pooled delta AUC +0.041 (+0.001 to +0.081), P = 0.044; mean AUC 0.587 -> 0.613
+2026-11-02 20:21:52 | INFO | (B) base+Sweeney+ML vs base+Sweeney: pooled delta AUC +0.001 (-0.001 to +0.002), P = 0.21; mean AUC 0.660 -> 0.660
+2026-11-02 20:22:03 | INFO | (B) Within severity cohorts (optimism-corrected):
+   cohort                 severity   n  events  auc_base  auc_full  delta  boots_ok
+ GSE54514       severity_apacheii_  36      10     0.697     0.672 -0.025       492
+GSE185263 sofa_24h_post_admisssion 342      50     0.700     0.695 -0.005       500
+2026-11-02 20:22:03 | INFO | (C) Sweeney score OR 1.71 (P = 1.2e-14); ML index adjusted for Sweeney OR 1.13 (0.94-1.37), P = 0.19; rho(Sweeney, ML) 0.47
+2026-11-02 20:22:03 | INFO | (D) Glucocorticoid-response score:
+                                                        test  estimate      lo      hi      P  P_holm  k     I2
+                   D1 death ~ GC score + age + sex (primary)    1.3275  1.1579  1.5219 0.0000     0.0  7 0.0000
+                  D2 GC score ~ age per 10 y + sex (primary)    0.0799  0.0444  0.1153 0.0000     0.0  7 0.1058
+death ~ GC score, adjusted for ML index + MHC-II (secondary)    1.1264  0.9310  1.3629 0.2208     NaN  7 0.1929
+                 Spearman rho GC score vs MHC-II (secondary)   -0.4799 -0.6008 -0.3375 0.0000     NaN  7 0.8826
+               Spearman rho GC score vs ML index (secondary)    0.2376  0.1655  0.3073 0.0000     NaN  7 0.3826
+2026-11-02 20:22:03 | INFO | (A) GC score adjusted for severity: pooled OR 1.05 (0.77-1.45), P = 0.74
+2026-11-02 20:22:03 | INFO | QUALITY GATE [PASS] GC-response signature genes (UP / DOWN): 50 / 50 (criterion: >= 10 per direction)
+2026-11-02 20:22:03 | INFO | QUALITY GATE [PASS] (A) ML index adjusted for severity (pooled OR, cohorts with severity scores): 0.98 (0.70-1.37), P = 0.9, k = 2 (criterion: reported)
+2026-11-02 20:22:03 | INFO | QUALITY GATE [PASS] (B) external delta AUC, base+ML vs base (pooled over validation cohorts): +0.041 (+0.001 to +0.081), P = 0.044 (criterion: reported)
+2026-11-02 20:22:03 | INFO | QUALITY GATE [PASS] (B) external delta AUC, base+Sweeney+ML vs base+Sweeney (pooled over validation cohorts): +0.001 (-0.001 to +0.002), P = 0.21 (criterion: reported)
+2026-11-02 20:22:03 | INFO | QUALITY GATE [PASS] (C) ML index adjusted for the Sweeney mortality score (all cohorts pooled): OR 1.13 (0.94-1.37), P = 0.19; Sweeney alone OR 1.71; rho 0.47 (criterion: reported)
+2026-11-02 20:22:03 | INFO | QUALITY GATE [PASS] (D) PRIMARY D1 death: GC-response score (all cohorts pooled): 1.33 (1.16-1.52), P = 4.9e-05, Holm 4.9e-05, I2 0% (criterion: reported (Holm < 0.05 = supported))
+2026-11-02 20:22:03 | INFO | QUALITY GATE [PASS] (D) PRIMARY D2 age: GC-response score (all cohorts pooled): 0.08 (0.04-0.12), P = 1e-05, Holm 2e-05, I2 11% (criterion: reported (Holm < 0.05 = supported))
+2026-11-02 20:22:05 | INFO | Saved figure /home/arshia/SEPSIS_immuneage/results/figures/Fig6_closing_analyses.pdf/.png/.tiff
+2026-11-02 20:22:05 | INFO | Project summary written: /home/arshia/SEPSIS_immuneage/results/tables/S32_project_summary.tsv
+2026-11-02 20:22:05 | INFO | Run time 0.3 min
+2026-11-02 20:22:05 | INFO | 
+==========================================================================================
+CLOSING ANALYSES (STAGE 05) - RESULTS AND GATES
+==========================================================================================
+[PASS] analysis4      GC-response signature genes (UP / DOWN): 50 / 50  (criterion: >= 10 per direction)
+[PASS] analysis4      (A) ML index adjusted for severity (pooled OR, cohorts with severity scores): 0.98 (0.70-1.37), P = 0.9, k = 2  (criterion: reported)
+[PASS] analysis4      (B) external delta AUC, base+ML vs base (pooled over validation cohorts): +0.041 (+0.001 to +0.081), P = 0.044  (criterion: reported)
+[PASS] analysis4      (B) external delta AUC, base+Sweeney+ML vs base+Sweeney (pooled over validation cohorts): +0.001 (-0.001 to +0.002), P = 0.21  (criterion: reported)
+[PASS] analysis4      (C) ML index adjusted for the Sweeney mortality score (all cohorts pooled): OR 1.13 (0.94-1.37), P = 0.19; Sweeney alone OR 1.71; rho 0.47  (criterion: reported)
+[PASS] analysis4      (D) PRIMARY D1 death: GC-response score (all cohorts pooled): 1.33 (1.16-1.52), P = 4.9e-05, Holm 4.9e-05, I2 0%  (criterion: reported (Holm < 0.05 = supported))
+[PASS] analysis4      (D) PRIMARY D2 age: GC-response score (all cohorts pooled): 0.08 (0.04-0.12), P = 1e-05, Holm 2e-05, I2 11%  (criterion: reported (Holm < 0.05 = supported))
+------------------------------------------------------------------------------------------
+ALL CRITICAL GATES PASSED - Stage 05 complete - project analyses finished.
+==========================================================================================

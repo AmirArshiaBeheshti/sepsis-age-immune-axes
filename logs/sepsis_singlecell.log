@@ -1,0 +1,191 @@
+2026-11-02 20:59:21 | INFO | Project folder: /home/arshia/SEPSIS_immuneage; scanpy 1.12.4
+2026-11-02 20:59:21 | INFO | Pre-registration present: registered 2026-11-02T09:59:49+00:00, SHA-256 9a65487b85bbf8a9... (unchanged)
+2026-11-02 20:59:21 | INFO | Amendment 1 present (registered 2026-11-02T09:59:49+00:00, unchanged)
+2026-11-02 20:59:21 | INFO | Amendment 3 present (registered 2026-11-02T09:55:59+00:00, unchanged)
+2026-11-02 20:59:21 | INFO | Amendment 4 present (registered 2026-11-02T10:31:27+00:00, unchanged)
+2026-11-02 20:59:21 | INFO | Amendment 5 (raw-count design) registered 2026-11-02T11:03:00+00:00 - superseded by Amendment 6
+2026-11-02 20:59:21 | INFO | Amendment 6 present (registered 2026-11-02T11:25:36+00:00, unchanged)
+2026-11-02 20:59:21 | INFO | Amendment 7 present (registered 2026-11-02T16:51:45+00:00, unchanged)
+2026-11-02 20:59:21 | INFO | Amendment 8 written (SHA-256 0e4d02d52ec4e517...) - before the analyses it specifies
+2026-11-02 20:59:24 | INFO | Downloading GSE167363_RAW.tar (337 MB)
+2026-11-02 21:00:06 | INFO |   GSE167363_RAW.tar: 50 / 337 MB
+2026-11-02 21:02:07 | INFO |   GSE167363_RAW.tar: 101 / 337 MB
+2026-11-02 21:02:44 | WARNING |   connection interrupted at 118 MB (ChunkedEncodingError); resuming (attempt 2/60)
+2026-11-02 21:03:46 | INFO |   GSE167363_RAW.tar: 169 / 337 MB
+2026-11-02 21:04:36 | INFO |   GSE167363_RAW.tar: 219 / 337 MB
+2026-11-02 21:05:32 | INFO |   GSE167363_RAW.tar: 269 / 337 MB
+2026-11-02 21:06:36 | INFO |   GSE167363_RAW.tar: 319 / 337 MB
+2026-11-02 21:06:51 | INFO | Extracted 36 files to /home/arshia/SEPSIS_immuneage/data/raw/GSE167363/mtx
+2026-11-02 21:06:52 | INFO |   GSM5102900 HC1: 7666 cells x 33538 genes
+2026-11-02 21:06:54 | INFO |   GSM5102901 HC2: 8345 cells x 33538 genes
+2026-11-02 21:06:54 | INFO |   GSM5102902 NS_LS_T0: 4106 cells x 33538 genes
+2026-11-02 21:06:55 | INFO |   GSM5102903 NS_LS_T6: 4622 cells x 33538 genes
+2026-11-02 21:06:56 | INFO |   GSM5102904 S1_T0: 3248 cells x 33538 genes
+2026-11-02 21:06:57 | INFO |   GSM5102905 S1_T6: 4566 cells x 33538 genes
+2026-11-02 21:06:58 | INFO |   GSM5511351 NS_ES_T0: 4286 cells x 33538 genes
+2026-11-02 21:06:59 | INFO |   GSM5511352 NS_ES_T6: 6257 cells x 33538 genes
+2026-11-02 21:07:00 | INFO |   GSM5511353 S2_T0: 6963 cells x 33538 genes
+2026-11-02 21:07:01 | INFO |   GSM5511354 S2_T6: 5682 cells x 33538 genes
+2026-11-02 21:07:02 | INFO |   GSM5511355 S3_T0: 2853 cells x 33538 genes
+2026-11-02 21:07:03 | INFO |   GSM5511356 S3_T6: 5650 cells x 33538 genes
+2026-11-02 21:07:05 | INFO | QC: 59754 of 64244 cells kept (22979 genes)
+2026-11-02 21:08:47 | INFO | Cell types per sample:
+cell_type  B cells  CD14 monocytes  CD16 monocytes  CD4 T cells  CD8 T cells  Dendritic cells  Erythroid cells  Granulocytes  NK cells  Plasma cells  Platelets
+sample                                                                                                                                                         
+HC1           1477            1433             164         1794         1449              123                0             5       864            74        142
+HC2           2567            1762             278         1837          721              151                1             8       608           122        161
+NS_ES_T0       497             518             215          825          314              153               50           667       252            10        499
+NS_ES_T6      1028             448             186         1946          442              181               59           706       360            35        514
+NS_LS_T0       143             236               1          161          317               14              250            15       429            11       1414
+NS_LS_T6       172             552              34          201          203               66              395             9       262            10       1910
+S1_T0          141            1191              92          258          173              125               50            56       347             9        199
+S1_T6          511            1582             133          384          288              169               38           106       567            26        363
+S2_T0         3807              78              37         1448          732               23               57            75       378            48         55
+S2_T6         1042            1121             204         1089          647              210               38           187       710           139         40
+S3_T0          253            1351             157          385          244              224                0            27       124            20         31
+S3_T6          762            1392             228         1490          819              195                2            52       394            88         92
+2026-11-02 21:08:49 | INFO | Score genes found (UP found/total, DOWN found/total): gc_score (50, 50, 50, 50); mhc_score (7, 7, 0, 0); s20_score (118, 120, 68, 68)
+2026-11-02 21:08:49 | WARNING | S2_T0: 78 CD14 monocytes (< 100) - not used for the coupling test
+2026-11-02 21:08:49 | INFO | (sc1) T0: pooled partial rho -0.06 (-0.13 to 0.00), P = 0.063; 4/4 patients negative (patient-level sign test P = 0.12) -> not supported
+2026-11-02 21:08:49 | INFO | (sc1 sensitivity) T6: pooled partial rho -0.03 (-0.06 to 0.00), P = 0.061; 4/5 patients negative (patient-level sign test P = 0.38) -> not supported
+2026-11-02 21:08:49 | INFO | Healthy donors (reference): HC1 rho -0.21, HC2 rho -0.17
+2026-11-02 21:08:49 | INFO | (sc2) GC score, septic T0 minus healthy (donor means), by cell type:
+                 delta_gc  delta_mhc  delta_s20
+cell_type                                      
+Dendritic cells     0.143     -1.680      0.095
+NK cells            0.123      0.056     -0.017
+Erythroid cells     0.120      0.242     -0.070
+CD4 T cells         0.103     -0.032     -0.018
+B cells             0.089     -0.625     -0.013
+CD8 T cells         0.049      0.047     -0.024
+CD16 monocytes      0.018     -1.211      0.069
+CD14 monocytes     -0.011     -1.231      0.065
+Plasma cells       -0.032     -1.166      0.029
+Platelets          -0.066     -0.182      0.020
+Granulocytes       -0.099     -0.279      0.083
+2026-11-02 21:08:49 | INFO | (sc3) death-age signature score by cell type (septic patients):
+cell_type
+Erythroid cells    0.263
+Platelets          0.228
+Granulocytes       0.147
+CD14 monocytes     0.061
+Dendritic cells    0.043
+CD16 monocytes     0.017
+Plasma cells      -0.043
+CD4 T cells       -0.080
+CD8 T cells       -0.089
+B cells           -0.106
+NK cells          -0.108
+2026-11-02 21:08:49 | INFO | (sc3) CD14 monocytes, donor means at T0:
+ donor        group  gc_score  mhc_score
+donor1      healthy    -0.348      1.052
+donor2      healthy    -0.378      1.133
+donor3 non-survivor    -0.425     -0.119
+donor4     survivor    -0.298     -0.246
+donor5 non-survivor    -0.245     -0.535
+donor6     survivor    -0.464      0.580
+donor7     survivor    -0.437     -0.373
+2026-11-02 21:08:49 | INFO | QUALITY GATE [PASS] single-cell: cells after QC: 59754 (Harmony, Leiden) (criterion: >= 20000)
+2026-11-02 21:08:49 | INFO | QUALITY GATE [PASS] GC-response genes detected in the single-cell data: 100% (criterion: >= 80%)
+2026-11-02 21:08:49 | INFO | QUALITY GATE [PASS] PRIMARY (sc1): GC vs MHC-II coupling in patients' CD14 monocytes: rho -0.06 (-0.13 to 0.00), P = 0.063, 4/4 negative (sign test P = 0.12) (criterion: rho < 0, P < 0.05, >= 4 of 5 patients negative)
+2026-11-02 21:08:49 | INFO | QUALITY GATE [PASS] Sensitivity (sc1, T6): GC vs MHC-II coupling in patients' CD14 monocytes: rho -0.03 (-0.06 to 0.00), P = 0.061, 4/5 negative (sign test P = 0.38) (criterion: rho < 0, P < 0.05, >= 4 of 5 patients negative)
+2026-11-02 21:08:49 | INFO | QUALITY GATE [PASS] (sc2, descriptive) cell type with the largest GC-score rise in sepsis: Dendritic cells; CD14 monocytes rank 8 of 11 (criterion: reported)
+2026-11-02 21:08:53 | INFO | Saved figure /home/arshia/SEPSIS_immuneage/results/figures/Fig7_single_cell_validation.pdf/.png/.tiff
+2026-11-02 21:08:53 | INFO | Run time 9.5 min
+2026-11-02 21:08:53 | INFO | 
+==========================================================================================
+STAGE 06 - SINGLE-CELL VALIDATION
+==========================================================================================
+[PASS] singlecell     single-cell: cells after QC: 59754 (Harmony, Leiden)  (criterion: >= 20000)
+[PASS] singlecell     GC-response genes detected in the single-cell data: 100%  (criterion: >= 80%)
+[PASS] singlecell     PRIMARY (sc1): GC vs MHC-II coupling in patients' CD14 monocytes: rho -0.06 (-0.13 to 0.00), P = 0.063, 4/4 negative (sign test P = 0.12)  (criterion: rho < 0, P < 0.05, >= 4 of 5 patients negative)
+[PASS] singlecell     Sensitivity (sc1, T6): GC vs MHC-II coupling in patients' CD14 monocytes: rho -0.03 (-0.06 to 0.00), P = 0.061, 4/5 negative (sign test P = 0.38)  (criterion: rho < 0, P < 0.05, >= 4 of 5 patients negative)
+[PASS] singlecell     (sc2, descriptive) cell type with the largest GC-score rise in sepsis: Dendritic cells; CD14 monocytes rank 8 of 11  (criterion: reported)
+------------------------------------------------------------------------------------------
+ALL CRITICAL GATES PASSED - Stage 06 complete.
+==========================================================================================
+2026-11-02 21:15:17 | INFO | Project folder: /home/arshia/SEPSIS_immuneage; scanpy 1.12.4
+2026-11-02 21:15:17 | INFO | Pre-registration present: registered 2026-11-02T09:59:49+00:00, SHA-256 9a65487b85bbf8a9... (unchanged)
+2026-11-02 21:15:17 | INFO | Amendment 1 present (registered 2026-11-02T09:59:49+00:00, unchanged)
+2026-11-02 21:15:17 | INFO | Amendment 3 present (registered 2026-11-02T09:55:59+00:00, unchanged)
+2026-11-02 21:15:17 | INFO | Amendment 4 present (registered 2026-11-02T10:31:27+00:00, unchanged)
+2026-11-02 21:15:17 | INFO | Amendment 5 (raw-count design) registered 2026-11-02T11:03:00+00:00 - superseded by Amendment 6
+2026-11-02 21:15:17 | INFO | Amendment 6 present (registered 2026-11-02T11:25:36+00:00, unchanged)
+2026-11-02 21:15:17 | INFO | Amendment 7 present (registered 2026-11-02T16:51:45+00:00, unchanged)
+2026-11-02 21:15:17 | INFO | Amendment 8 present (registered 2026-11-02T17:29:21+00:00, unchanged)
+2026-11-02 21:15:17 | INFO | Processed single-cell object loaded from cache (sc_GSE167363_processed.h5ad)
+2026-11-02 21:15:25 | INFO | Cell types per sample:
+cell_type  B cells  CD14 monocytes  CD16 monocytes  CD4 T cells  CD8 T cells  Dendritic cells  Erythroid cells  Granulocytes  NK cells  Plasma cells  Platelets
+sample                                                                                                                                                         
+HC1           1477            1433             164         1794         1449              123                0             5       864            74        142
+HC2           2567            1762             278         1837          721              151                1             8       608           122        161
+NS_ES_T0       497             518             215          825          314              153               50           667       252            10        499
+NS_ES_T6      1028             448             186         1946          442              181               59           706       360            35        514
+NS_LS_T0       143             236               1          161          317               14              250            15       429            11       1414
+NS_LS_T6       172             552              34          201          203               66              395             9       262            10       1910
+S1_T0          141            1191              92          258          173              125               50            56       347             9        199
+S1_T6          511            1582             133          384          288              169               38           106       567            26        363
+S2_T0         3807              78              37         1448          732               23               57            75       378            48         55
+S2_T6         1042            1121             204         1089          647              210               38           187       710           139         40
+S3_T0          253            1351             157          385          244              224                0            27       124            20         31
+S3_T6          762            1392             228         1490          819              195                2            52       394            88         92
+2026-11-02 21:15:27 | INFO | Score genes found (UP found/total, DOWN found/total): gc_score (50, 50, 50, 50); mhc_score (7, 7, 0, 0); s20_score (118, 120, 68, 68)
+2026-11-02 21:15:27 | WARNING | S2_T0: 78 CD14 monocytes (< 100) - not used for the coupling test
+2026-11-02 21:15:27 | INFO | (sc1) T0: pooled partial rho -0.06 (-0.13 to 0.00), P = 0.063; 4/4 patients negative (patient-level sign test P = 0.12) -> not supported
+2026-11-02 21:15:27 | INFO | (sc1 sensitivity) T6: pooled partial rho -0.03 (-0.06 to 0.00), P = 0.061; 4/5 patients negative (patient-level sign test P = 0.38) -> not supported
+2026-11-02 21:15:27 | INFO | Healthy donors (reference): HC1 rho -0.21, HC2 rho -0.17
+2026-11-02 21:15:27 | INFO | (sc2) GC score, septic T0 minus healthy (donor means), by cell type:
+                 delta_gc  delta_mhc  delta_s20
+cell_type                                      
+Dendritic cells     0.143     -1.680      0.095
+NK cells            0.123      0.056     -0.017
+Erythroid cells     0.120      0.242     -0.070
+CD4 T cells         0.103     -0.032     -0.018
+B cells             0.089     -0.625     -0.013
+CD8 T cells         0.049      0.047     -0.024
+CD16 monocytes      0.018     -1.211      0.069
+CD14 monocytes     -0.011     -1.231      0.065
+Plasma cells       -0.032     -1.166      0.029
+Platelets          -0.066     -0.182      0.020
+Granulocytes       -0.099     -0.279      0.083
+2026-11-02 21:15:27 | INFO | (sc3) death-age signature score by cell type (septic patients):
+cell_type
+Erythroid cells    0.263
+Platelets          0.228
+Granulocytes       0.147
+CD14 monocytes     0.061
+Dendritic cells    0.043
+CD16 monocytes     0.017
+Plasma cells      -0.043
+CD4 T cells       -0.080
+CD8 T cells       -0.089
+B cells           -0.106
+NK cells          -0.108
+2026-11-02 21:15:27 | INFO | (sc3) CD14 monocytes, donor means at T0:
+ donor        group  gc_score  mhc_score
+donor1      healthy    -0.348      1.052
+donor2      healthy    -0.378      1.133
+donor3 non-survivor    -0.425     -0.119
+donor4     survivor    -0.298     -0.246
+donor5 non-survivor    -0.245     -0.535
+donor6     survivor    -0.464      0.580
+donor7     survivor    -0.437     -0.373
+2026-11-02 21:15:27 | INFO | QUALITY GATE [PASS] single-cell: cells after QC: 59754 (Harmony, Leiden) (criterion: >= 20000)
+2026-11-02 21:15:27 | INFO | QUALITY GATE [PASS] GC-response genes detected in the single-cell data: 100% (criterion: >= 80%)
+2026-11-02 21:15:27 | INFO | QUALITY GATE [WARN] PRIMARY (sc1): GC vs MHC-II coupling in patients' CD14 monocytes: rho -0.06 (-0.13 to 0.00), P = 0.063, 4/4 negative (sign test P = 0.12) (criterion: rho < 0, P < 0.05, >= 4 of 5 patients negative)
+2026-11-02 21:15:27 | INFO | QUALITY GATE [WARN] Sensitivity (sc1, T6): GC vs MHC-II coupling in patients' CD14 monocytes: rho -0.03 (-0.06 to 0.00), P = 0.061, 4/5 negative (sign test P = 0.38) (criterion: rho < 0, P < 0.05, >= 4 of 5 patients negative)
+2026-11-02 21:15:27 | INFO | QUALITY GATE [PASS] (sc2, descriptive) cell type with the largest GC-score rise in sepsis: Dendritic cells; CD14 monocytes rank 8 of 11 (criterion: reported)
+2026-11-02 21:15:31 | INFO | Saved figure /home/arshia/SEPSIS_immuneage/results/figures/Fig7_single_cell_validation.pdf/.png/.tiff
+2026-11-02 21:15:31 | INFO | Run time 0.2 min
+2026-11-02 21:15:31 | INFO | 
+==========================================================================================
+STAGE 06 - SINGLE-CELL VALIDATION
+==========================================================================================
+[PASS] singlecell     single-cell: cells after QC: 59754 (Harmony, Leiden)  (criterion: >= 20000)
+[PASS] singlecell     GC-response genes detected in the single-cell data: 100%  (criterion: >= 80%)
+[WARN] singlecell     PRIMARY (sc1): GC vs MHC-II coupling in patients' CD14 monocytes: rho -0.06 (-0.13 to 0.00), P = 0.063, 4/4 negative (sign test P = 0.12)  (criterion: rho < 0, P < 0.05, >= 4 of 5 patients negative)
+[WARN] singlecell     Sensitivity (sc1, T6): GC vs MHC-II coupling in patients' CD14 monocytes: rho -0.03 (-0.06 to 0.00), P = 0.061, 4/5 negative (sign test P = 0.38)  (criterion: rho < 0, P < 0.05, >= 4 of 5 patients negative)
+[PASS] singlecell     (sc2, descriptive) cell type with the largest GC-score rise in sepsis: Dendritic cells; CD14 monocytes rank 8 of 11  (criterion: reported)
+------------------------------------------------------------------------------------------
+ALL CRITICAL GATES PASSED - Stage 06 complete.
+==========================================================================================

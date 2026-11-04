@@ -1,0 +1,94 @@
+2026-11-02 13:25:59 | INFO | Project folder: /home/arshia/SEPSIS_immuneage
+2026-11-02 13:25:59 | INFO | Preflight passed: discovery GSE65682, 6 validation cohorts; python 3.12.13, pandas 2.3.3, numpy 2.0.2, statsmodels 0.14.6
+2026-11-02 13:25:59 | INFO | Pre-registration present: registered 2026-11-02T05:01:05+00:00, SHA-256 9a65487b85bbf8a9... (unchanged)
+2026-11-02 13:25:59 | INFO | Amendment 1 present (registered 2026-11-02T05:45:15+00:00, unchanged)
+2026-11-02 13:25:59 | INFO | Amendment 3 written (SHA-256 4c7f7d12d0ca67ae...) - before any outcome analysis
+2026-11-02 13:26:00 | INFO | Discovery GSE65682; validation E-MTAB-4421, E-MTAB-4451, E-MTAB-5273, GSE95233, GSE54514, GSE185263
+2026-11-02 13:26:00 | INFO | GSE65682: 478 patients, 114 deaths; platform Affymetrix
+2026-11-02 13:26:01 | INFO | E-MTAB-4421: 265 patients, 56 deaths; platform Illumina
+2026-11-02 13:26:01 | INFO | E-MTAB-4451: 106 patients, 52 deaths; platform Illumina
+2026-11-02 13:26:01 | INFO | E-MTAB-5273: 94 patients, 14 deaths; platform Illumina
+2026-11-02 13:26:01 | INFO | GSE95233: 51 patients, 17 deaths; platform Affymetrix
+2026-11-02 13:26:01 | INFO | GSE54514: 36 patients, 10 deaths; platform Illumina
+2026-11-02 13:26:03 | INFO | GSE185263: 345 patients, 52 deaths; platform RNA-seq
+2026-11-02 13:26:03 | INFO | H1 discovery GSE65682: ratio 1.33; validation pooled OR 1.41 (1.18-1.68), P = 0.00014
+2026-11-02 13:26:03 | INFO | H2: mediation with 1000 bootstraps per cohort (mediators: ml_index, mhc_class_ii, inflammation_hallmark)
+2026-11-02 13:26:04 | INFO |   GSE65682: TE 4.5 pp, NIE 0.7 pp (0.1 to 1.4); PM 16%
+2026-11-02 13:26:06 | INFO |   E-MTAB-4421: TE 8.3 pp, NIE -0.3 pp (-1.9 to 1.2); PM -3%
+2026-11-02 13:26:06 | INFO |   E-MTAB-4451: excluded from risk-scale mediation (outcome-dependent sampling)
+2026-11-02 13:26:07 | INFO |   E-MTAB-5273: TE 4.6 pp, NIE -1.1 pp (-3.3 to 0.7); PM -25%
+2026-11-02 13:26:08 | INFO |   GSE95233: TE -0.4 pp, NIE 3.1 pp (-1.1 to 10.1); PM -822%
+2026-11-02 13:26:10 | INFO |   GSE54514: TE 7.5 pp, NIE 1.9 pp (-3.8 to 9.0); PM 26%
+2026-11-02 13:26:12 | INFO |   GSE185263: TE 2.5 pp, NIE 0.4 pp (-0.3 to 1.1); PM 18%
+2026-11-02 13:26:12 | INFO | H2 validation pooled: NIE 0.23 pp (P = 0.47); proportion mediated 5% (-11 to 31)
+2026-11-02 13:26:12 | INFO |   single mediator 1/10: ml_index
+2026-11-02 13:26:17 | INFO |   single mediator 2/10: immature_neutrophil
+2026-11-02 13:26:23 | INFO |   single mediator 3/10: mature_neutrophil
+2026-11-02 13:27:50 | INFO | Project folder: /home/arshia/SEPSIS_immuneage
+2026-11-02 13:50:36 | INFO | Project folder: /home/arshia/SEPSIS_immuneage
+2026-11-02 13:50:36 | INFO | Preflight passed: discovery GSE65682, 6 validation cohorts; python 3.12.13, pandas 2.3.3, numpy 2.0.2, statsmodels 0.14.6
+2026-11-02 13:50:36 | INFO | Pre-registration present: registered 2026-11-02T09:59:49+00:00, SHA-256 9a65487b85bbf8a9... (unchanged)
+2026-11-02 13:50:36 | INFO | Amendment 1 present (registered 2026-11-02T09:59:49+00:00, unchanged)
+2026-11-02 13:50:36 | INFO | Amendment 3 present (registered 2026-11-02T09:55:59+00:00, unchanged)
+2026-11-02 13:50:36 | INFO | Discovery GSE65682; validation E-MTAB-4421, E-MTAB-4451, E-MTAB-5273, GSE95233, GSE54514, GSE185263
+2026-11-02 13:50:37 | INFO | GSE65682: 478 patients, 114 deaths; platform Affymetrix
+2026-11-02 13:50:37 | INFO | E-MTAB-4421: 265 patients, 56 deaths; platform Illumina
+2026-11-02 13:50:37 | INFO | E-MTAB-4451: 106 patients, 52 deaths; platform Illumina
+2026-11-02 13:50:37 | INFO | E-MTAB-5273: 94 patients, 14 deaths; platform Illumina
+2026-11-02 13:50:38 | INFO | GSE95233: 51 patients, 17 deaths; platform Affymetrix
+2026-11-02 13:50:38 | INFO | GSE54514: 36 patients, 10 deaths; platform Illumina
+2026-11-02 13:50:39 | INFO | GSE185263: 345 patients, 52 deaths; platform RNA-seq
+2026-11-02 13:50:39 | INFO | H1 discovery GSE65682: ratio 1.33; validation pooled OR 1.41 (1.18-1.68), P = 0.00014
+2026-11-02 13:50:39 | INFO | H2: mediation with 1000 bootstraps per cohort (mediators: ml_index, mhc_class_ii, inflammation_hallmark)
+2026-11-02 13:50:39 | INFO |   GSE65682: TE 4.5 pp, NIE 0.7 pp (0.1 to 1.4); PM 16%
+2026-11-02 13:50:39 | INFO |   E-MTAB-4421: TE 8.3 pp, NIE -0.3 pp (-1.9 to 1.2); PM -3%
+2026-11-02 13:50:39 | INFO |   E-MTAB-4451: excluded from risk-scale mediation (outcome-dependent sampling)
+2026-11-02 13:50:39 | INFO |   E-MTAB-5273: TE 4.6 pp, NIE -1.1 pp (-3.3 to 0.7); PM -25%
+2026-11-02 13:50:39 | INFO |   GSE95233: TE -0.4 pp, NIE 3.1 pp (-1.1 to 10.1); PM -822%
+2026-11-02 13:50:39 | INFO |   GSE54514: TE 7.5 pp, NIE 1.9 pp (-3.8 to 9.0); PM 26%
+2026-11-02 13:50:39 | INFO |   GSE185263: TE 2.5 pp, NIE 0.4 pp (-0.3 to 1.1); PM 18%
+2026-11-02 13:50:39 | INFO | H2 validation pooled: NIE 0.23 pp (P = 0.47); proportion mediated 5% (-11 to 31)
+2026-11-02 13:50:39 | INFO |   single mediator 1/10: ml_index
+2026-11-02 13:50:39 | INFO |   single mediator 2/10: immature_neutrophil
+2026-11-02 13:50:39 | INFO |   single mediator 3/10: mature_neutrophil
+2026-11-02 13:50:46 | INFO |   single mediator 4/10: ms1_monocyte
+2026-11-02 13:50:51 | INFO |   single mediator 5/10: classical_monocyte
+2026-11-02 13:50:57 | INFO |   single mediator 6/10: t_cell
+2026-11-02 13:51:03 | INFO |   single mediator 7/10: b_cell
+2026-11-02 13:51:09 | INFO |   single mediator 8/10: nk_cell
+2026-11-02 13:51:14 | INFO |   single mediator 9/10: mhc_class_ii
+2026-11-02 13:51:20 | INFO |   single mediator 10/10: inflammation_hallmark
+2026-11-02 13:51:27 | INFO | PRIMARY RESULTS (pre-registered, Holm over 2):
+                                                   hypothesis discovery              validation_pooled        P   Holm_P  supported
+                     H1 ML index -> death (age, sex adjusted)      1.33            OR 1.41 (1.18-1.68) 0.000139 0.000277       True
+H2 age effect mediated by immune state (NIE, risk difference)   0.73 pp NIE 0.23 pp; PM 5% (-11 to 31) 0.470816 0.470816      False
+2026-11-02 13:51:27 | INFO | QUALITY GATE [PASS] GSE65682: complete cases (age, sex, ML index, death): 478 (criterion: >= 30)
+2026-11-02 13:51:27 | INFO | QUALITY GATE [PASS] E-MTAB-4421: complete cases (age, sex, ML index, death): 265 (criterion: >= 30)
+2026-11-02 13:51:27 | INFO | QUALITY GATE [PASS] E-MTAB-4451: complete cases (age, sex, ML index, death): 106 (criterion: >= 30)
+2026-11-02 13:51:27 | INFO | QUALITY GATE [PASS] E-MTAB-5273: complete cases (age, sex, ML index, death): 94 (criterion: >= 30)
+2026-11-02 13:51:27 | INFO | QUALITY GATE [PASS] GSE95233: complete cases (age, sex, ML index, death): 51 (criterion: >= 30)
+2026-11-02 13:51:27 | INFO | QUALITY GATE [PASS] GSE54514: complete cases (age, sex, ML index, death): 36 (criterion: >= 30)
+2026-11-02 13:51:27 | INFO | QUALITY GATE [PASS] GSE185263: complete cases (age, sex, ML index, death): 345 (criterion: >= 30)
+2026-11-02 13:51:27 | INFO | QUALITY GATE [PASS] RESULT (reported, not a gate): H1 ML index -> death (age, sex adjusted): OR 1.41 (1.18-1.68); Holm P = 0.00028; supported = True (criterion: reported)
+2026-11-02 13:51:27 | INFO | QUALITY GATE [PASS] RESULT (reported, not a gate): H2 age effect mediated by immune state (NIE, risk difference): NIE 0.23 pp; PM 5% (-11 to 31); Holm P = 0.47; supported = False (criterion: reported)
+2026-11-02 13:51:27 | INFO | QUALITY GATE [WARN] mediation bootstraps converged (min over cohorts): 872 (criterion: >= 950)
+2026-11-02 13:51:28 | INFO | Saved figure /home/arshia/SEPSIS_immuneage/results/figures/Fig2_prognosis_and_age.pdf/.png/.tiff
+2026-11-02 13:51:28 | INFO | Saved figure /home/arshia/SEPSIS_immuneage/results/figures/Fig3_age_mediation.pdf/.png/.tiff
+2026-11-02 13:51:28 | INFO | Run time 0.9 min
+2026-11-02 13:51:28 | INFO | 
+==========================================================================================
+ANALYSIS STAGE 1 QUALITY GATES
+==========================================================================================
+[PASS] analysis1      GSE65682: complete cases (age, sex, ML index, death): 478  (criterion: >= 30)
+[PASS] analysis1      E-MTAB-4421: complete cases (age, sex, ML index, death): 265  (criterion: >= 30)
+[PASS] analysis1      E-MTAB-4451: complete cases (age, sex, ML index, death): 106  (criterion: >= 30)
+[PASS] analysis1      E-MTAB-5273: complete cases (age, sex, ML index, death): 94  (criterion: >= 30)
+[PASS] analysis1      GSE95233: complete cases (age, sex, ML index, death): 51  (criterion: >= 30)
+[PASS] analysis1      GSE54514: complete cases (age, sex, ML index, death): 36  (criterion: >= 30)
+[PASS] analysis1      GSE185263: complete cases (age, sex, ML index, death): 345  (criterion: >= 30)
+[PASS] analysis1      RESULT (reported, not a gate): H1 ML index -> death (age, sex adjusted): OR 1.41 (1.18-1.68); Holm P = 0.00028; supported = True  (criterion: reported)
+[PASS] analysis1      RESULT (reported, not a gate): H2 age effect mediated by immune state (NIE, risk difference): NIE 0.23 pp; PM 5% (-11 to 31); Holm P = 0.47; supported = False  (criterion: reported)
+[WARN] analysis1      mediation bootstraps converged (min over cohorts): 872  (criterion: >= 950)
+------------------------------------------------------------------------------------------
+ALL CRITICAL GATES PASSED - Analysis stage 1 complete.
+==========================================================================================

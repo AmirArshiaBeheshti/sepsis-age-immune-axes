@@ -1,0 +1,163 @@
+2026-11-02 14:32:59 | INFO | Project folder: /home/arshia/SEPSIS_immuneage
+2026-11-02 14:32:59 | INFO | Preflight passed: discovery GSE65682, 6 validation cohorts; python 3.12.13, pandas 2.3.3, numpy 2.0.2, statsmodels 0.14.6
+2026-11-02 14:33:00 | INFO | anndata 0.12.19, h5py 3.16.0
+2026-11-02 14:33:00 | INFO | Pre-registration present: registered 2026-11-02T09:59:49+00:00, SHA-256 9a65487b85bbf8a9... (unchanged)
+2026-11-02 14:33:00 | INFO | Amendment 1 present (registered 2026-11-02T09:59:49+00:00, unchanged)
+2026-11-02 14:33:00 | INFO | Amendment 3 present (registered 2026-11-02T09:55:59+00:00, unchanged)
+2026-11-02 14:33:00 | INFO | Amendment 4 present (registered 2026-11-02T10:31:27+00:00, unchanged)
+2026-11-02 14:33:00 | INFO | Amendment 5 written (SHA-256 367ef95d6c083829...) - before any perturbation data were downloaded
+2026-11-02 14:33:00 | INFO | Reversal signature: UP 120, DOWN 68 genes (UP erythroid 26, neutrophil 6)
+2026-11-02 14:33:02 | INFO | OP3 counts file: 3.52 GB (free disk 3.7 GB)
+2026-11-02 14:33:41 | INFO | Project folder: /home/arshia/SEPSIS_immuneage
+2026-11-02 14:33:41 | INFO | Preflight passed: discovery GSE65682, 6 validation cohorts; python 3.12.13, pandas 2.3.3, numpy 2.0.2, statsmodels 0.14.6
+2026-11-02 14:33:41 | INFO | anndata 0.12.19, h5py 3.16.0
+2026-11-02 14:33:41 | INFO | Pre-registration present: registered 2026-11-02T09:59:49+00:00, SHA-256 9a65487b85bbf8a9... (unchanged)
+2026-11-02 14:33:41 | INFO | Amendment 1 present (registered 2026-11-02T09:59:49+00:00, unchanged)
+2026-11-02 14:33:41 | INFO | Amendment 3 present (registered 2026-11-02T09:55:59+00:00, unchanged)
+2026-11-02 14:33:41 | INFO | Amendment 4 present (registered 2026-11-02T10:31:27+00:00, unchanged)
+2026-11-02 14:33:41 | INFO | Amendment 5 present (registered 2026-11-02T11:03:00+00:00, unchanged)
+2026-11-02 14:33:41 | INFO | Reversal signature: UP 120, DOWN 68 genes (UP erythroid 26, neutrophil 6)
+2026-11-02 14:33:42 | INFO | OP3 counts file: 3.52 GB (free disk 8.9 GB)
+2026-11-02 14:36:43 | WARNING | OP3 download interrupted (('Connection broken: IncompleteRead(129671644 bytes read, 3385589023 more expected)', IncompleteRead(129671644 bytes read, 3385589023 more expected))); resuming (attempt 1/30)
+2026-11-02 14:39:26 | WARNING | OP3 download interrupted (('Connection broken: IncompleteRead(90354540 bytes read, 3299077007 more expected)', IncompleteRead(90354540 bytes read, 3299077007 more expected))); resuming (attempt 2/30)
+2026-11-02 14:50:04 | INFO | Project folder: /home/arshia/SEPSIS_immuneage
+2026-11-02 14:50:04 | INFO | Preflight passed: discovery GSE65682, 6 validation cohorts; python 3.12.13, pandas 2.3.3, numpy 2.0.2, statsmodels 0.14.6
+2026-11-02 14:50:04 | INFO | anndata 0.12.19, h5py 3.16.0
+2026-11-02 14:50:04 | INFO | Pre-registration present: registered 2026-11-02T09:59:49+00:00, SHA-256 9a65487b85bbf8a9... (unchanged)
+2026-11-02 14:50:04 | INFO | Amendment 1 present (registered 2026-11-02T09:59:49+00:00, unchanged)
+2026-11-02 14:50:04 | INFO | Amendment 3 present (registered 2026-11-02T09:55:59+00:00, unchanged)
+2026-11-02 14:50:04 | INFO | Amendment 4 present (registered 2026-11-02T10:31:27+00:00, unchanged)
+2026-11-02 14:55:36 | INFO | Project folder: /home/arshia/SEPSIS_immuneage
+2026-11-02 14:55:36 | INFO | Preflight passed: discovery GSE65682, 6 validation cohorts; python 3.12.13, pandas 2.3.3, numpy 2.0.2, statsmodels 0.14.6
+2026-11-02 14:55:36 | INFO | anndata 0.12.19, h5py 3.16.0
+2026-11-02 14:55:36 | INFO | Pre-registration present: registered 2026-11-02T09:59:49+00:00, SHA-256 9a65487b85bbf8a9... (unchanged)
+2026-11-02 14:55:36 | INFO | Amendment 1 present (registered 2026-11-02T09:59:49+00:00, unchanged)
+2026-11-02 14:55:36 | INFO | Amendment 3 present (registered 2026-11-02T09:55:59+00:00, unchanged)
+2026-11-02 14:55:36 | INFO | Amendment 4 present (registered 2026-11-02T10:31:27+00:00, unchanged)
+2026-11-02 14:55:36 | INFO | Amendment 5 (raw-count design) registered 2026-11-02T11:03:00+00:00 - superseded by Amendment 6
+2026-11-02 14:55:36 | INFO | Amendment 6 written (SHA-256 53f93e3d0182d5d1...) - before any drug-signature result
+2026-11-02 14:55:36 | INFO | Audit before Amendment 6: {'amendment_5_registered_utc': '2026-11-02T11:03:00+00:00', 'drug_results_present': [], 'raw_count_file_present': False, 'raw_count_partial_download_bytes': 218103808, 'raw_pseudobulk_cache_present': False}
+2026-11-02 14:55:36 | INFO | Not needed any more (can be deleted to free 0.2 GB): /home/arshia/SEPSIS_immuneage/data/raw/op3/sc_counts_reannotated_with_counts.h5ad.part
+2026-11-02 14:55:36 | INFO | Reversal signature: UP 120, DOWN 68 genes (UP erythroid 26, neutrophil 6)
+2026-11-02 15:08:26 | INFO | Project folder: /home/arshia/SEPSIS_immuneage
+2026-11-02 15:08:26 | INFO | Preflight passed: discovery GSE65682, 6 validation cohorts; python 3.12.13, pandas 2.3.3, numpy 2.0.2, statsmodels 0.14.6
+2026-11-02 15:08:26 | INFO | anndata 0.12.19, h5py 3.16.0
+2026-11-02 15:08:26 | INFO | Pre-registration present: registered 2026-11-02T09:59:49+00:00, SHA-256 9a65487b85bbf8a9... (unchanged)
+2026-11-02 15:08:26 | INFO | Amendment 1 present (registered 2026-11-02T09:59:49+00:00, unchanged)
+2026-11-02 15:08:26 | INFO | Amendment 3 present (registered 2026-11-02T09:55:59+00:00, unchanged)
+2026-11-02 15:08:26 | INFO | Amendment 4 present (registered 2026-11-02T10:31:27+00:00, unchanged)
+2026-11-02 15:08:26 | INFO | Amendment 5 (raw-count design) registered 2026-11-02T11:03:00+00:00 - superseded by Amendment 6
+2026-11-02 15:08:26 | INFO | Amendment 6 present (registered 2026-11-02T11:25:36+00:00, unchanged)
+2026-11-02 15:08:26 | INFO | Reversal signature: UP 120, DOWN 68 genes (UP erythroid 26, neutrophil 6)
+2026-11-02 15:08:27 | INFO | Downloading 2023-09-12_de_by_cell_type_train.h5ad (538 MB)
+2026-11-02 15:10:15 | INFO |   2023-09-12_de_by_cell_type_train.h5ad: 50 / 538 MB
+2026-11-02 15:11:25 | WARNING |   connection interrupted at 90 MB (ChunkedEncodingError); resuming (attempt 2/60)
+2026-11-02 19:55:57 | INFO | Project folder: /home/arshia/SEPSIS_immuneage
+2026-11-02 19:55:57 | INFO | Preflight passed: discovery GSE65682, 6 validation cohorts; python 3.12.13, pandas 2.3.3, numpy 2.0.2, statsmodels 0.14.6
+2026-11-02 19:55:58 | INFO | anndata 0.12.19, h5py 3.16.0
+2026-11-02 19:55:58 | INFO | Pre-registration present: registered 2026-11-02T09:59:49+00:00, SHA-256 9a65487b85bbf8a9... (unchanged)
+2026-11-02 19:55:58 | INFO | Amendment 1 present (registered 2026-11-02T09:59:49+00:00, unchanged)
+2026-11-02 19:55:58 | INFO | Amendment 3 present (registered 2026-11-02T09:55:59+00:00, unchanged)
+2026-11-02 19:55:58 | INFO | Amendment 4 present (registered 2026-11-02T10:31:27+00:00, unchanged)
+2026-11-02 19:55:58 | INFO | Amendment 5 (raw-count design) registered 2026-11-02T11:03:00+00:00 - superseded by Amendment 6
+2026-11-02 19:55:58 | INFO | Amendment 6 present (registered 2026-11-02T11:25:36+00:00, unchanged)
+2026-11-02 19:55:58 | INFO | Reversal signature: UP 120, DOWN 68 genes (UP erythroid 26, neutrophil 6)
+2026-11-02 19:55:58 | INFO | OP3: 869 compound x cell-type profiles, 146 compounds, 18211 genes; cell types ['B cells', 'Myeloid cells', 'NK cells', 'T cells CD4+', 'T cells CD8+', 'T regulatory cells']; statistic X (sign_log10_pval)
+2026-11-02 19:55:58 | INFO | Signature genes in the OP3 PBMC gene universe:
+direction  n_genes  in_OP3  fraction coverage
+     DOWN       68      68  1.000000     full
+       UP      120      98  0.816667     full
+Absent genes by lineage:
+direction    lineage  n_absent
+       UP      other         6
+       UP  erythroid        13
+       UP neutrophil         3
+2026-11-02 19:56:06 | INFO | Per cell type: compounds reversing / mimicking the signature, raising / lowering MHC class II:
+                    reverses  mimics  mhc_up  mhc_down
+cell_type                                             
+B cells                   14      15       1        64
+Myeloid cells              6      15       1        48
+NK cells                  12      15       1         3
+T cells CD4+              12      11       1         0
+T cells CD8+              11      15       2         0
+T regulatory cells        11      15       2         9
+2026-11-02 19:56:06 | INFO | Candidates (Myeloid cells): Tier 1 0, Tier 2 20, caution 45
+                         compound    tier  reversal_primary  mhc_up_primary                                    reversed_in  n_cell_types_reversed  R_z_primary  R_FDR_primary  mhc_z_primary  mhc_FDR_primary  mhc_genes_up_primary  alarmin_down_primary  mimics_primary  mhc_down_primary  glucocorticoid
+                        Sgc-cbp30  Tier 2              True           False                         B cells, Myeloid cells                      2       -5.726          0.000         -4.973            0.000                     0                  True           False              True           False
+                       Navitoclax  Tier 2              True           False                                  Myeloid cells                      1       -5.554          0.000         -4.785            0.000                     0                 False           False             False           False
+          AMD-070 (hydrochloride)  Tier 2              True           False B cells, Myeloid cells, NK cells, T cells CD4+                      4       -4.605          0.000         -4.043            0.000                     0                 False           False             False           False
+                         SB525334  Tier 2              True           False              Myeloid cells, T regulatory cells                      2       -3.790          0.001         -3.145            0.004                     0                 False           False             False           False
+                           RN-486  Tier 2              True           False                                  Myeloid cells                      1       -3.622          0.001          1.185            0.318                     1                 False           False             False           False
+                          RVX-208  Tier 2              True           False                        Myeloid cells, NK cells                      2       -2.387          0.045         -1.305            0.268                     0                  True           False             False           False
+                     Methotrexate  Tier 2             False           False                              B cells, NK cells                      2       -1.625          0.200         -0.815            0.515                     0                 False           False             False           False
+Proscillaridin A;Proscillaridin-A  Tier 2             False           False                B cells, NK cells, T cells CD4+                      3       -1.501          0.237         -1.156            0.330                     1                  True           False             False           False
+                      Azacitidine  Tier 2             False           False T cells CD4+, T cells CD8+, T regulatory cells                      3       -0.837          0.525         -0.637            0.609                     0                 False           False             False           False
+                        GSK256066  Tier 2             False            True                                                                     0       -0.505          0.716         10.400            0.000                     7                 False           False             False           False
+                          AVL-292  Tier 2             False           False                         NK cells, T cells CD4+                      2       -0.218          0.883         -7.120            0.000                     0                 False           False              True           False
+                      BAY 61-3606  Tier 2             False           False                         NK cells, T cells CD4+                      2       -0.007          0.994         -1.854            0.099                     2                  True           False             False           False
+                        LY2090314  Tier 2             False           False                          B cells, T cells CD4+                      2        0.230          0.883         -1.639            0.152                     0                 False           False             False           False
+                       Oxybenzone  Tier 2             False           False               T cells CD8+, T regulatory cells                      2        0.381          0.785          0.380            0.751                     0                 False           False             False           False
+                       LDN 193189  Tier 2             False           False                    B cells, T regulatory cells                      2        1.427          0.263         -0.457            0.707                     1                 False           False             False           False
+            Ganetespib (STA-9090)  Tier 2             False           False                              B cells, NK cells                      2        2.160          0.071         -6.467            0.000                     0                 False           False              True           False
+                       Vandetanib  Tier 2             False           False               T cells CD8+, T regulatory cells                      2        2.733          0.020        -12.587            0.000                     0                 False           False              True           False
+                          AT13387  Tier 2             False           False                              B cells, NK cells                      2        2.837          0.015         -5.861            0.000                     0                 False           False              True           False
+                        Masitinib  Tier 2             False           False               T cells CD8+, T regulatory cells                      2        2.971          0.010         -2.963            0.007                     0                 False           False             False           False
+                         MLN 2238  Tier 2             False           False                     T cells CD4+, T cells CD8+                      2        3.358          0.003         -6.121            0.000                     0                  True            True              True           False
+                        Dovitinib Caution             False           False                                       NK cells                      1       -1.941          0.112         -7.183            0.000                     0                 False           False              True           False
+                           ABT737 Caution             False           False                                                                     0        0.147          0.935         -6.841            0.000                     0                 False           False              True           False
+                         GLPG0634 Caution             False           False                                                                     0        0.556          0.688         -4.483            0.000                     0                 False           False              True           False
+                       Crizotinib Caution             False           False                                                                     0        0.833          0.525         -5.110            0.000                     1                 False           False              True           False
+         O-Demethylated Adapalene Caution             False           False                                                                     0        1.022          0.425         -9.377            0.000                     0                 False           False              True           False
+                       Defactinib Caution             False           False                                   T cells CD4+                      1        1.237          0.334         -4.321            0.000                     1                 False           False              True           False
+                       Tacalcitol Caution             False           False                                                                     0        1.287          0.313         -6.374            0.000                     0                 False           False              True           False
+                        Nilotinib Caution             False           False                                                                     0        1.441          0.260         -3.795            0.000                     0                 False           False              True           False
+                          GO-6976 Caution             False           False                                                                     0        1.485          0.242         -5.408            0.000                     0                 False           False              True           False
+                       BMS-777607 Caution             False           False                                                                     0        1.573          0.211         -7.465            0.000                     0                 False           False              True           False
+2026-11-02 19:56:06 | INFO | Glucocorticoids in OP3: ['Mometasone Furoate', 'Prednisolone']
+2026-11-02 19:56:14 | INFO | DGIdb approved drugs per gene (in the desired direction):
+          drugs  desired
+gene                    
+ARG1          3        0
+CD28          2        0
+CD4           2        0
+CD74          1        0
+CD86          8        0
+CSF2RA        2        1
+CSF2RB        2        1
+CTLA4        16        2
+HLA-DPA1      1        0
+HLA-DPB1      8        0
+HLA-DRA       6        0
+HLA-DRB1     63        0
+IFNGR1        1        1
+IFNGR2        1        1
+MIF           2        0
+S100A8        1        0
+TLR4         13        0
+2026-11-02 19:56:14 | INFO | QUALITY GATE [PASS] OP3 profiles: compounds / primary cell type: 146 / Myeloid cells (criterion: >= 100 compounds; myeloid cells present)
+2026-11-02 19:56:14 | INFO | QUALITY GATE [PASS] OP3: compounds profiled in Myeloid cells: 144 (criterion: >= 100)
+2026-11-02 19:56:14 | INFO | QUALITY GATE [PASS] EXPRESSION GATE: signature genes in the OP3 PBMC gene universe (UP / DOWN): 98 (82%) / 68 (100%) (criterion: >= 20 per direction (>= 50% = full coverage))
+2026-11-02 19:56:14 | INFO | QUALITY GATE [PASS] POSITIVE CONTROL (a): glucocorticoids induce GR targets (TSC22D3, FKBP5, ZBTB16, PER1): passed (Mometasone Furoate, Prednisolone) (criterion: >= 2 targets FDR < 0.05 in >= 1 cell type)
+2026-11-02 19:56:14 | INFO | QUALITY GATE [PASS] POSITIVE CONTROL (b): glucocorticoids lower MHC class II in Myeloid cells: passed (criterion: z < 0, P < 0.05)
+2026-11-02 19:56:14 | INFO | QUALITY GATE [WARN] POSITIVE CONTROL (c): IFN-gamma signatures reverse the death signature (Enrichr): no term found (criterion: adj. P < 0.05)
+2026-11-02 19:56:14 | INFO | QUALITY GATE [WARN] POSITIVE CONTROL (c): GM-CSF signatures reverse the death signature (Enrichr): no term found (criterion: adj. P < 0.05)
+2026-11-02 19:56:14 | INFO | QUALITY GATE [PASS] POSITIVE CONTROL (d): DGIdb lists GM-CSF / IFN-gamma drugs for their receptors: INTERFERON GAMMA-1B, MOLGRAMOSTIM, SARGRAMOSTIM (criterion: >= 1)
+2026-11-02 19:56:14 | INFO | QUALITY GATE [PASS] RESULT (reported): candidates in Myeloid cells (Tier 1 / Tier 2 / caution): 0 / 20 / 45: Sgc-cbp30, Navitoclax, AMD-070 (hydrochloride), SB525334, RN-486, RVX-208, Methotrexate, Proscillaridin A;Proscillaridin-A (criterion: reported)
+2026-11-02 19:56:16 | INFO | Saved figure /home/arshia/SEPSIS_immuneage/results/figures/Fig5_drug_repurposing.pdf/.png/.tiff
+2026-11-02 19:56:16 | INFO | Run time 0.3 min
+2026-11-02 19:56:16 | INFO | 
+==========================================================================================
+ANALYSIS STAGE 3 QUALITY GATES
+==========================================================================================
+[PASS] analysis3      OP3 profiles: compounds / primary cell type: 146 / Myeloid cells  (criterion: >= 100 compounds; myeloid cells present)
+[PASS] analysis3      OP3: compounds profiled in Myeloid cells: 144  (criterion: >= 100)
+[PASS] analysis3      EXPRESSION GATE: signature genes in the OP3 PBMC gene universe (UP / DOWN): 98 (82%) / 68 (100%)  (criterion: >= 20 per direction (>= 50% = full coverage))
+[PASS] analysis3      POSITIVE CONTROL (a): glucocorticoids induce GR targets (TSC22D3, FKBP5, ZBTB16, PER1): passed (Mometasone Furoate, Prednisolone)  (criterion: >= 2 targets FDR < 0.05 in >= 1 cell type)
+[PASS] analysis3      POSITIVE CONTROL (b): glucocorticoids lower MHC class II in Myeloid cells: passed  (criterion: z < 0, P < 0.05)
+[WARN] analysis3      POSITIVE CONTROL (c): IFN-gamma signatures reverse the death signature (Enrichr): no term found  (criterion: adj. P < 0.05)
+[WARN] analysis3      POSITIVE CONTROL (c): GM-CSF signatures reverse the death signature (Enrichr): no term found  (criterion: adj. P < 0.05)
+[PASS] analysis3      POSITIVE CONTROL (d): DGIdb lists GM-CSF / IFN-gamma drugs for their receptors: INTERFERON GAMMA-1B, MOLGRAMOSTIM, SARGRAMOSTIM  (criterion: >= 1)
+[PASS] analysis3      RESULT (reported): candidates in Myeloid cells (Tier 1 / Tier 2 / caution): 0 / 20 / 45: Sgc-cbp30, Navitoclax, AMD-070 (hydrochloride), SB525334, RN-486, RVX-208, Methotrexate, Proscillaridin A;Proscillaridin-A  (criterion: reported)
+------------------------------------------------------------------------------------------
+ALL CRITICAL GATES PASSED - Analysis stage 3 complete.
+==========================================================================================
