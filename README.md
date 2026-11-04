@@ -86,7 +86,7 @@ All output goes to `./SEPSIS_immuneage`, or to the folder named in the environme
 | `05_closing_analyses.py` | Amendment 7; severity adjustment; external AUC; 11-gene score; glucocorticoid-response score | S27–S32, Fig. 6 | Minutes |
 | `06_single_cell_validation.py` | Amendment 8; GSE167363 QC, Harmony, UMAP, Leiden; monocyte coupling test | S33–S36, Fig. 7 | 5–15 min |
 | `07_figure_polish.py` | Redraws panels of Figs. 4, 5 and 7 from saved tables only (no result changes) | Figs. 4, 5, 7 | < 1 min |
-| `08_revision_analyses.py` | Post hoc analyses requested in peer review | S37–S45 | About 2 min |
+| `08_revision_analyses.py` | Additional post hoc sensitivity analyses | S37–S45 | About 2 min |
 
 **Manual steps.**
 
